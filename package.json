@@ -1,0 +1,16 @@
+{
+  "name": "govercel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "setup": "pnpm vercel login && pnpm vercel link",
+    "start": "pnpm vercel dev",
+    "dev": "pnpm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vercel": "^28.16.12"
+  }
+  
+}
